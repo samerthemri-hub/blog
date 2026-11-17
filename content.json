@@ -1,0 +1,105 @@
+{
+  "name": "Samer Themri",
+  "handle": "jelbene",
+  "role": "Software engineering, INSAT",
+  "photo": "photo.jpg",
+  "tagline": "Software engineering student at INSAT · Cybersecurity enthusiast\nReverse engineering & digital forensics",
+  "welcome": "Welcome to Samer Themri's blog",
+  "footer": "Samer Themri · INSAT, Tunisia",
+  "about": [
+    "I am Samer Themri, a software engineering student at INSAT with a strong passion for cybersecurity, low-level systems and digital investigation. Driven by curiosity and a problem-solving mindset, I enjoy exploring the inner workings of software, uncovering hidden vulnerabilities and understanding how systems behave beneath the surface.",
+    "My interests sit at the intersection of reverse engineering and digital forensics, where every binary, memory dump and network packet is a new chance to investigate, analyze and uncover the truth. I combine analytical thinking with hands-on experimentation to understand how security mechanisms work, where they fail and how they can be strengthened.",
+    "As an active CTF player, I keep challenging myself with practical security problems that push my technical ability, creativity and persistence."
+  ],
+  "mindset": [
+    "I believe that understanding how systems break is an essential step toward building systems that are more resilient.",
+    "My goal is to turn curiosity into expertise, challenges into knowledge, and technical discoveries into stronger security."
+  ],
+  "status": "Open to connecting with researchers, CTF players and security professionals",
+  "availability": "Always open to connecting with cybersecurity researchers, fellow CTF players and professionals who share a passion for reverse engineering, digital investigations and information security.",
+  "links": {
+    "github": "https://github.com/samerthemri-hub",
+    "linkedin": "https://www.linkedin.com/in/samer-themri-977639438",
+    "email": "samerthemri@gmail.com",
+    "ctftime": ""
+  },
+  "focus": [
+    {
+      "t": "Reverse engineering",
+      "d": "Static and dynamic binary analysis, x86/x64 assembly, decompilation"
+    },
+    {
+      "t": "Digital forensics",
+      "d": "Memory forensics, disk images, evidence reconstruction"
+    },
+    {
+      "t": "Network analysis",
+      "d": "PCAP and traffic analysis: what hides in the packets"
+    },
+    {
+      "t": "Low-level systems",
+      "d": "Program internals and how software behaves beneath the surface"
+    },
+    {
+      "t": "Cybersecurity research",
+      "d": "Investigating weaknesses and exploring defensive techniques"
+    },
+    {
+      "t": "Capture the flag",
+      "d": "Practical challenges that build skill, creativity and persistence"
+    },
+    {
+      "t": "Defensive mindset",
+      "d": "Learning how systems break so they can be built to last"
+    },
+    {
+      "t": "[Your own focus area]",
+      "d": "[One line on what you do in it]"
+    },
+    {
+      "t": "[Currently learning]",
+      "d": "[Tool, topic or lab you are working on]"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "[Certification name]",
+      "why": "[Why you took it.]",
+      "areas": [
+        "[Area 1]",
+        "[Area 2]"
+      ],
+      "url": ""
+    }
+  ],
+  "extras": [],
+  "achievements": [
+    {
+      "title": "First place: Securinets CyberCamp 7.0",
+      "badge": "first place",
+      "date": "",
+      "place": "Protocol Reverse Engineering CTF",
+      "summary": "Won the protocol reverse engineering CTF organized by Securinets at CyberCamp 7.0.",
+      "details": "A protocol reverse engineering CTF held at CyberCamp 7.0 and organized by Securinets.\n\n## What I learned\n- A method for reading data: compare actions, spot what changes and what stays constant.\n- Every field has a purpose: magic bytes, type, sequence, length, CRC.\n- State machines: the order of commands matters.\n- Reversing the executable in Ghidra or IDA shows how, not only what.\n- Patience: test, fail, adjust, test again.",
+      "url": ""
+    }
+  ],
+  "challenges": [
+    {
+      "title": "Field Beacon",
+      "category": "Reverse Engineering",
+      "event": "Securinets CyberCamp 7.0",
+      "date": "",
+      "points": "250",
+      "difficulty": "Medium",
+      "tags": [
+        "IDA",
+        "Wireshark",
+        "Python"
+      ],
+      "summary": "Recovered a custom UDP protocol and its Fletcher-style checksum, then forged a hidden maintenance request to get the flag.",
+      "body": "## Challenge\nA custom UDP protocol had to be reverse engineered to reach a hidden maintenance request.\n\n## Analysis\n- Recovered the protocol format from the captured traffic\n- Identified the Fletcher-style checksum\n- Forged the hidden maintenance request\n\n## Solve script\n~~~\npaste your script here\n~~~\n\n## What I learned\n- Replace this text with your own takeaway\n",
+      "flag": ""
+    }
+  ]
+}
